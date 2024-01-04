@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ashleanichols/gatsby-themes is built on the following main stack:
+
 - [Google Analytics](http://www.google.com/analytics) – General Analytics
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -23,11 +24,13 @@ ashleanichols/gatsby-themes is built on the following main stack:
 - [react-three-fiber](https://github.com/react-spring/react-three-fiber) – Game Development
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ashleanichols/gatsby-themes is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg' alt='Google Analytics'/> [Google Analytics](http://www.google.com/analytics) – General Analytics
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -49,14 +52,15 @@ ashleanichols/gatsby-themes is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/12781/no-img.png' alt='react-three-fiber'/> [react-three-fiber](https://github.com/react-spring/react-three-fiber) – Game Development
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ashleanichols/gatsby-themes](https://github.com/ashleanichols/gatsby-themes)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|59<br/>Tools used|11/09/23 <br/>Report generated|
+|61<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -280,9 +284,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (35)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (37)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (35)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (37)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -310,7 +314,9 @@ Full tech stack [here](/techstack.md)
 |[gatsby-plugin-sharp](https://www.npmjs.com/gatsby-plugin-sharp)|v3.6.0|07/06/21|renovate[bot] |MIT|[CVE-2023-30548](https://github.com/advisories/GHSA-h2pm-378c-pcxx) (Moderate)|
 |[gatsby-source-filesystem](https://www.npmjs.com/gatsby-source-filesystem)|v3.6.0|06/07/21|github-actions[bot] |MIT|N/A|
 |[gatsby-transformer-sharp](https://www.npmjs.com/gatsby-transformer-sharp)|v3.6.0|07/06/21|renovate[bot] |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v7.0.0|07/06/21|renovate[bot] |MIT|N/A|
 |[jest-junit](https://www.npmjs.com/jest-junit)|v12.2.0|07/06/21|renovate[bot] |Apache-2.0|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v11.0.0|07/06/21|renovate[bot] |MIT|N/A|
 |[lodash.kebabcase](https://www.npmjs.com/lodash.kebabcase)|v4.1.1|09/08/19|Lennart |MIT|N/A|
 |[plop](https://www.npmjs.com/plop)|v2.7.4|08/03/20|renovate[bot] |MIT|N/A|
 |[polished](https://www.npmjs.com/polished)|v4.1.1|06/10/21|renovate[bot] |MIT|N/A|
@@ -325,4 +331,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
