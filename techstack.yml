@@ -1,11 +1,12 @@
 repo_name: ashleanichols/gatsby-themes
 report_id: a25d39ea6fc57128f0cab749e5e65706
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:53:11+00:00'
+timestamp: '2024-01-04T15:07:19+00:00'
 requested_by: LekoArts
 provider: github
 branch: master
-detected_tools_count: 59
+detected_tools_count: 61
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes
   detection_source: Repo Metadata
 - name: Handlebars.js
   description: Minimal Templating on Steroids
@@ -24,6 +26,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -54,6 +59,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/package.json
   detection_source: package.json
   last_updated_by: LekoArts
   last_updated_on: 2019-07-04 21:53:22.000000000 Z
@@ -67,8 +73,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/cara/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: CircleCI
@@ -79,6 +85,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Lennart
   last_updated_on: 2020-10-25 14:57:05.000000000 Z
@@ -93,7 +100,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -106,6 +113,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/package.json
   detection_source: package.json
   last_updated_by: LekoArts
   last_updated_on: 2019-07-04 21:53:22.000000000 Z
@@ -117,6 +125,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -126,7 +135,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/release.yml"
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/.github/workflows/publish-starters.yml
+  detection_source: ".github/workflows/publish-starters.yml"
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: Jest
@@ -139,7 +149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: LekoArts
   last_updated_on: 2019-07-04 21:53:22.000000000 Z
@@ -153,7 +163,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -165,7 +175,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: www/yarn.lock
   last_updated_by: LekoArts
   last_updated_on: 2020-11-01 14:57:32.000000000 Z
 - name: npm
@@ -176,6 +187,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Lennart
   last_updated_on: 2019-07-17 17:43:26.000000000 Z
@@ -187,7 +199,8 @@ tools:
   category: Analytics
   sub_category: General Analytics
   image_url: https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/examples/cara/package.json
+  detection_source: examples/cara/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: Netlify
@@ -199,6 +212,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/examples/status-dashboard/netlify.toml
   detection_source: examples/status-dashboard/netlify.toml
   last_updated_by: Lennart
   last_updated_on: 2019-07-24 09:52:58.000000000 Z
@@ -211,7 +225,8 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
-  detection_source: themes/gatsby-theme-specimens/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/themes/gatsby-theme-emilia/package.json
+  detection_source: themes/gatsby-theme-emilia/package.json
   last_updated_by: Lennart
   last_updated_on: 2019-09-08 19:00:14.000000000 Z
 - name: Gatsby
@@ -225,8 +240,8 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/cara/package.json
   last_updated_by: github-actions[bot]
   last_updated_on: 2021-06-07 20:03:47.000000000 Z
 - name: Shell
@@ -238,12 +253,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:06:41.000000000 Z
@@ -252,6 +269,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -264,6 +282,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/12781/no-img.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
@@ -276,7 +295,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Game Development
   image_url: https://img.stackshare.io/service/5883/preview.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: www/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
@@ -290,8 +309,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17807/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/specimens/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: "@mdx-js/react"
@@ -304,8 +323,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
-  detection_source_url: www/yarn.lock
-  detection_source: themes/gatsby-theme-minimal-blog-core/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: themes/gatsby-theme-emilia-core/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: "@testing-library/jest-dom"
@@ -318,7 +337,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -333,7 +352,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -347,7 +366,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -361,7 +380,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -375,7 +394,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -389,7 +408,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -403,7 +422,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -417,7 +436,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -431,7 +450,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17775/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: themes/gatsby-theme-specimens/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
@@ -445,7 +464,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
@@ -459,8 +478,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
+  detection_source: examples/cara/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: eslint-config-airbnb
@@ -473,7 +492,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -487,7 +506,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -501,7 +520,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -515,7 +534,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -529,7 +548,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -543,7 +562,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -557,7 +576,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -571,8 +590,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17532/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/specimens/package.json
   last_updated_by: github-actions[bot]
   last_updated_on: 2021-06-07 20:03:47.000000000 Z
 - name: gatsby-plugin-sharp
@@ -585,8 +604,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17786/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: themes/gatsby-theme-emilia-core/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
   vulnerabilities:
@@ -607,8 +626,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17100/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/specimens/package.json
   last_updated_by: github-actions[bot]
   last_updated_on: 2021-06-07 20:03:47.000000000 Z
 - name: gatsby-transformer-sharp
@@ -621,10 +640,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18094/image.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: themes/gatsby-theme-emilia-core/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-07-06 06:06:41.000000000 Z
 - name: jest-junit
   description: A jest reporter that generates junit xml files
   package_url: https://www.npmjs.com/jest-junit
@@ -635,7 +668,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-07-06 06:42:14.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
@@ -649,8 +696,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17755/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: www/yarn.lock
-  detection_source: themes/gatsby-theme-minimal-blog/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: themes/gatsby-theme-emilia-core/package.json
   last_updated_by: Lennart
   last_updated_on: 2019-09-08 19:00:14.000000000 Z
 - name: plop
@@ -664,7 +711,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17943/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2020-08-03 01:54:19.000000000 Z
@@ -678,8 +725,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16665/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: yarn.lock
-  detection_source: themes/gatsby-theme-specimens/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
+  detection_source: themes/gatsby-theme-emilia/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-06-10 05:52:21.000000000 Z
 - name: react-dom
@@ -692,8 +739,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/cara/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: react-helmet
@@ -706,8 +753,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/specimens/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: react-live
@@ -720,8 +767,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18625/default_6aa055317c2b28723235bf769cdc93c28d788d16.png
-  detection_source_url: yarn.lock
-  detection_source: themes/gatsby-theme-minimal-blog/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
+  detection_source: examples/specimens/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
 - name: react-spring
@@ -734,8 +781,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17658/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
-  detection_source_url: yarn.lock
-  detection_source: themes/gatsby-theme-emma/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
+  detection_source: themes/gatsby-theme-emilia/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
 - name: theme-ui
@@ -748,8 +795,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18286/default_14d018f911261a59bddc0d862496e58cd91c1853.png
-  detection_source_url: www/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
+  detection_source: examples/specimens/package.json
   last_updated_by: github-actions[bot]
   last_updated_on: 2021-06-07 20:03:47.000000000 Z
 - name: three
@@ -762,7 +809,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
-  detection_source_url: www/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/www/yarn.lock
   detection_source: www/package.json
   last_updated_by: Lennart
   last_updated_on: 2021-06-07 19:45:15.000000000 Z
@@ -784,7 +831,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/gatsby-themes/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-06 06:42:14.000000000 Z
